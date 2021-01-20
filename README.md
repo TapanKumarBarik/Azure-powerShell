@@ -2,5 +2,8 @@ https://docs.microsoft.com/en-us/powershell/azure/get-started-azureps?view=azps-
 
 
 # To check the PowerShell version 
+```python
+$PSVersionTable.PSVersion
+```
 
 ![Alt text](https://github.com/TapanKumarBarik/Azure-powerShell/blob/main/Screenshot%20(42).png)
