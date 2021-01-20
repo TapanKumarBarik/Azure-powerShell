@@ -3,4 +3,4 @@ https://docs.microsoft.com/en-us/powershell/azure/get-started-azureps?view=azps-
 
 # To check the PowerShell version 
 
-![Alt text](Photos/Screenshot (42).png?raw=true "Title")
+![Alt text](https://github.com/TapanKumarBarik/Azure-powerShell/blob/main/Screenshot%20(42).png)
