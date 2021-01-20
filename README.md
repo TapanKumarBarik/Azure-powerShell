@@ -14,3 +14,8 @@ Install-Module -Name Az -AllowClobber -Force
 ```
 AllowClobber for installing more than 2 versions of powershell
 
+# To get the available versions of powershell installed 
+```python
+ Get-InstalledModule -Name Az -AllVersions | Select-Object Name,Version
+ ```
+ 
