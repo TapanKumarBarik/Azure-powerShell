@@ -38,4 +38,22 @@ AllowClobber for installing more than 2 versions of powershell
  ```python
  Get-AzSubscription
  ```
- ## 
+ ## Case : More than 1 subscripton
+ 
+ ### 1 : get all the available subscription
+ ```python
+ Get-AzSubscription
+ ```
+ 
+  ### 2: set the context variable of the subscription you want to use
+ ```python
+ $context=Get-Subscription -SubscriptionId <Subscription id>
+ 
+ ```
+  
+  ### 3: set azure context
+ ```python
+ Set-AzContext $context
+ 
+ ```
+ 
