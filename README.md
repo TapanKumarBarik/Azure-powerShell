@@ -7,3 +7,10 @@ $PSVersionTable.PSVersion
 ```
 
 ![Alt text](https://github.com/TapanKumarBarik/Azure-powerShell/blob/main/Screenshot%20(42).png)
+
+# Install Az modules on PowerShell
+```python
+Install-Module -Name Az -AllowClobber -Force
+```
+AllowClobber for installing more than 2 versions of powershell
+
