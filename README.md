@@ -19,3 +19,23 @@ AllowClobber for installing more than 2 versions of powershell
  Get-InstalledModule -Name Az -AllVersions | Select-Object Name,Version
  ```
  ![Alt text](https://github.com/TapanKumarBarik/Azure-powerShell/blob/main/Screenshot%20(43).png)
+ 
+ # LOGIN
+ ```python
+ Connect-AzAccount
+ ```
+ ## To get all the vm running in my subscription 
+ ```python 
+ Get-AzVM
+ ```
+ https://docs.microsoft.com/en-us/powershell/module/az.compute/get-azvm?view=azps-5.4.0
+ 
+ ## get webApps
+ ```python
+ Get-AzWebApp
+ ```
+ # Get all the subscription
+ ```python
+ Get-AzSubscription
+ ```
+ ## 
