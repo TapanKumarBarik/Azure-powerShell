@@ -18,4 +18,4 @@ AllowClobber for installing more than 2 versions of powershell
 ```python
  Get-InstalledModule -Name Az -AllVersions | Select-Object Name,Version
  ```
- 
+ ![Alt text](https://github.com/TapanKumarBarik/Azure-powerShell/blob/main/Screenshot%20(43).png)
